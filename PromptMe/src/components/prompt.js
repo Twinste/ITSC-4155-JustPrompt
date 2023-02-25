@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 
+
 const prompt = () =>  {
   return (
 
@@ -15,7 +16,7 @@ const prompt = () =>  {
 const styles = StyleSheet.create({
   promptOutterContainer: {
     backgroundColor: 'white',
-    width: '70%',
+    width: '250px',
     height: '15%',
     borderRadius: '20',
     shadowColor: 'grey',
